@@ -6,6 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Corinthians</title>
+    <style>
+        .corpo {
+            display: flex;
+            overflow-x: auto;
+            padding: 20px;
+        }
+        .video-container {
+            flex: 0 0 auto;
+            margin-right: 20px;
+        }
+        iframe {
+            width: 320px; /* Ajuste a largura conforme necessário */
+            height: 180px; /* Ajuste a altura conforme necessário */
+        }
+    </style>
 </head>
 
 <body>
@@ -13,25 +28,20 @@
         <h1>Corinthians</h1>
     </div>
     <div class="corpo">
-        <h3>CORINTHIANS VS BOTAFOGO</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/4akpf3PL_qo?si=YIC5dxje8pPmuzVG"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-        <h3>CORINTHIANS VS CHELSEA-FINAL</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/CQZsCQucwMI?si=rRiwNIlVZLaWeVop"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-        <h3>CORINTHIANS VS REAL MADRID</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/C7iED4cSfvc?si=fXT9kzF1anY2-XJd"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="video-container">
+            <h3>CORINTHIANS VS BOTAFOGO</h3>
+            <iframe src="https://www.youtube.com/embed/4akpf3PL_qo?si=YIC5dxje8pPmuzVG" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="video-container">
+            <h3>CORINTHIANS VS CHELSEA-FINAL</h3>
+            <iframe src="https://www.youtube.com/embed/CQZsCQucwMI?si=rRiwNIlVZLaWeVop" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="video-container">
+            <h3>CORINTHIANS VS REAL MADRID</h3>
+            <iframe src="https://www.youtube.com/embed/C7iED4cSfvc?si=fXT9kzF1anY2-XJd" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+        </div>
     </div>
-    <div class="final"><h2>PROJETO FEITO POR:<br>João   Cristiano <br>Heloisa   Ana Paula</h2></div>
+    <div class="final"><h2>PROJETO FEITO POR:<br>João Cristiano <br>Heloisa Ana Paula</h2></div>
 </body>
 
 </html>
